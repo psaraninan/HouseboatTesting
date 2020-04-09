@@ -3,26 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
   <test thread-count="5" name="Test(failed)" parallel="tests">
     <classes>
-      <class name="com.houseboat.pages.AuthPageTest">
+      <class name="com.houseboat.pages.AuthSignInTest">
         <methods>
-          <include name="facebookSignUp"/>
-          <include name="googleSignUp"/>
-          <include name="signUp"/>
+          <include name="openUrl"/>
+          <include name="googleSignIn"/>
+        </methods>
+      </class> <!-- com.houseboat.pages.AuthSignInTest -->
+      <class name="com.houseboat.pages.GoogleSignInTest">
+        <methods>
+          <include name="getEmail"/>
           <include name="openUrl"/>
         </methods>
-      </class> <!-- com.houseboat.pages.AuthPageTest -->
-      <class name="com.houseboat.pages.HomePageTest">
-        <methods>
-          <include name="homePage"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- com.houseboat.pages.HomePageTest -->
-      <class name="com.houseboat.pages.LoginPageTest">
-        <methods>
-          <include name="getStarted"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- com.houseboat.pages.LoginPageTest -->
+      </class> <!-- com.houseboat.pages.GoogleSignInTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

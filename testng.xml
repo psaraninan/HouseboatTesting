@@ -10,7 +10,8 @@
 			<class name="com.houseboat.pages.InitialTest" />
 			<class name="com.houseboat.pages.HomePageTest" />
 			<class name="com.houseboat.pages.LoginPageTest" />
-			<class name="com.houseboat.pages.AuthPageTest" />
+			<class name="com.houseboat.pages.AuthSignInTest" />
+			<class name="com.houseboat.pages.GoogleSignInTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -25,6 +25,4 @@ public class AuthPageTest extends InitialTest{
 		AuthPage auth = new AuthPage(driver);
 		auth.fbSignUp();
 	}
-	
-	
 }
