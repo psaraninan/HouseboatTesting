@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.houseboat.pages.AuthPageTest">
+        <methods>
+          <include name="facebookSignUp"/>
+          <include name="googleSignUp"/>
+          <include name="signUp"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- com.houseboat.pages.AuthPageTest -->
+      <class name="com.houseboat.pages.HomePageTest">
+        <methods>
+          <include name="homePage"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- com.houseboat.pages.HomePageTest -->
+      <class name="com.houseboat.pages.LoginPageTest">
+        <methods>
+          <include name="getStarted"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- com.houseboat.pages.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

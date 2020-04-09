@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<RollingFile name="File" fileName="${basePath}/print.log"
+			filePattern="${basePath}/prints=%d{yyyy-MM-dd}.log">
+			<SizeBasedTriggeringPolicy size="500" />
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</RollingFile>
+
+	</Appenders>
+	<Loggers>
+		<Logger name="com.houseboat.pages.HomePageTest" level="trace"
+			additivity="false">
+			<AppenderRef ref="File" />
+		</Logger>
+		<Logger name="com.houseboat.pages.LoginPageTest" level="trace"
+			additivity="false">
+			<AppenderRef ref="File" />
+		</Logger>
+		<Logger name="resources.DriverInitialisation" level="trace"
+			additivity="false">
+			<AppenderRef ref="File" />
+		</Logger>
+		<Root level="trace">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>
