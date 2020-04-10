@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19918" started-at="2020-04-10T00:48:32 IST" finished-at="2020-04-10T00:48:52 IST">
+  <suite name="Suite" duration-ms="22288" started-at="2020-04-11T01:04:30 IST" finished-at="2020-04-11T01:04:52 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19918" started-at="2020-04-10T00:48:32 IST" finished-at="2020-04-10T00:48:52 IST">
+    <test name="Test" duration-ms="22288" started-at="2020-04-11T01:04:30 IST" finished-at="2020-04-11T01:04:52 IST">
       <class name="com.houseboat.pages.LoginPageTest">
-        <test-method status="PASS" signature="getStarted()[pri:0, instance:com.houseboat.pages.LoginPageTest@10d68fcd]" name="getStarted" duration-ms="10075" started-at="2020-04-10T00:48:34 IST" finished-at="2020-04-10T00:48:45 IST">
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:com.houseboat.pages.LoginPageTest@10d68fcd]" name="getStarted" duration-ms="9667" started-at="2020-04-11T01:04:33 IST" finished-at="2020-04-11T01:04:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStarted -->
       </class> <!-- com.houseboat.pages.LoginPageTest -->
       <class name="com.houseboat.pages.GoogleSignInTest">
-        <test-method status="PASS" signature="getEmail()[pri:0, instance:com.houseboat.pages.GoogleSignInTest@6db9f5a4]" name="getEmail" duration-ms="3843" started-at="2020-04-10T00:48:48 IST" finished-at="2020-04-10T00:48:52 IST">
+        <test-method status="PASS" signature="getEmail()[pri:0, instance:com.houseboat.pages.GoogleSignInTest@6db9f5a4]" name="getEmail" duration-ms="3500" started-at="2020-04-11T01:04:49 IST" finished-at="2020-04-11T01:04:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEmail -->
       </class> <!-- com.houseboat.pages.GoogleSignInTest -->
-      <class name="com.houseboat.pages.AuthSignInTest">
-        <test-method status="PASS" signature="googleSignIn()[pri:0, instance:com.houseboat.pages.AuthSignInTest@117e949d]" name="googleSignIn" duration-ms="3318" started-at="2020-04-10T00:48:45 IST" finished-at="2020-04-10T00:48:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSignIn -->
-      </class> <!-- com.houseboat.pages.AuthSignInTest -->
       <class name="com.houseboat.pages.HomePageTest">
-        <test-method status="PASS" signature="homePage()[pri:0, instance:com.houseboat.pages.HomePageTest@424e1977]" name="homePage" duration-ms="2526" started-at="2020-04-10T00:48:32 IST" finished-at="2020-04-10T00:48:34 IST">
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.houseboat.pages.HomePageTest@424e1977]" name="homePage" duration-ms="3112" started-at="2020-04-11T01:04:30 IST" finished-at="2020-04-11T01:04:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
       </class> <!-- com.houseboat.pages.HomePageTest -->
+      <class name="com.houseboat.pages.AuthSignInTest">
+        <test-method status="PASS" signature="googleSignIn()[pri:0, instance:com.houseboat.pages.AuthSignInTest@117e949d]" name="googleSignIn" duration-ms="5915" started-at="2020-04-11T01:04:43 IST" finished-at="2020-04-11T01:04:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSignIn -->
+      </class> <!-- com.houseboat.pages.AuthSignInTest -->
       <class name="com.houseboat.pages.InitialTest">
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.houseboat.pages.InitialTest@31f9b85e]" name="openUrl" is-config="true" duration-ms="50204" started-at="2020-04-10T00:47:42 IST" finished-at="2020-04-10T00:48:32 IST">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.houseboat.pages.InitialTest@31f9b85e]" name="openUrl" is-config="true" duration-ms="29359" started-at="2020-04-11T01:04:00 IST" finished-at="2020-04-11T01:04:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
