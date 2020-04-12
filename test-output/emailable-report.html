@@ -8,14 +8,40 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,288</td><td></td><td></td></tr>
+<tr><th colspan="8">Houseboat Testing</th></tr>
+<tr><td><a href="#t0">Houseboat Login</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">51,683</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Houseboat Auth Login</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">41,690</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">93,373</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.houseboat.pages.AuthSignInTest</td><td><a href="#m0">googleSignIn</a></td><td rowspan="1">1586547283085</td><td rowspan="1">5915</td></tr><tr class="passedodd"><td rowspan="1">com.houseboat.pages.GoogleSignInTest</td><td><a href="#m1">getEmail</a></td><td rowspan="1">1586547289004</td><td rowspan="1">3500</td></tr><tr class="passedeven"><td rowspan="1">com.houseboat.pages.HomePageTest</td><td><a href="#m2">homePage</a></td><td rowspan="1">1586547270285</td><td rowspan="1">3112</td></tr><tr class="passedodd"><td rowspan="1">com.houseboat.pages.LoginPageTest</td><td><a href="#m3">getStarted</a></td><td rowspan="1">1586547273409</td><td rowspan="1">9667</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Houseboat Testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Houseboat Login &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.houseboat.pages.LogoutProfileTest</td><td><a href="#m0">cleanUp</a></td><td rowspan="1">1586719732819</td><td rowspan="1">4037</td></tr><tr><th colspan="4">Houseboat Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.houseboat.pages.AddHouseboatTest</td><td><a href="#m1">clickAddBtn</a></td><td rowspan="1">1586719717700</td><td rowspan="1">5740</td></tr><tr class="passedodd"><td rowspan="1">com.houseboat.pages.HomePageTest</td><td><a href="#m2">homePage</a></td><td rowspan="1">1586719701408</td><td rowspan="1">2540</td></tr><tr class="passedeven"><td rowspan="1">com.houseboat.pages.LoginHouseboatTest</td><td><a href="#m3">hbLogin</a></td><td rowspan="1">1586719714038</td><td rowspan="1">3654</td></tr><tr class="passedodd"><td rowspan="1">com.houseboat.pages.LoginPageTest</td><td><a href="#m4">getStarted</a></td><td rowspan="1">1586719703984</td><td rowspan="1">10048</td></tr><tr class="passedeven"><td rowspan="1">com.houseboat.pages.LogoutProfileTest</td><td><a href="#m5">getStarted</a></td><td rowspan="1">1586719726752</td><td rowspan="1">6063</td></tr><tr class="passedodd"><td rowspan="1">com.houseboat.pages.NewHouseboatTest</td><td><a href="#m6">addNewHouseboat</a></td><td rowspan="1">1586719723449</td><td rowspan="1">3299</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Houseboat Auth Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.houseboat.pages.AuthSignInTest</td><td><a href="#m7">googleSignIn</a></td><td rowspan="1">1586719763467</td><td rowspan="1">12174</td></tr><tr class="passedodd"><td rowspan="1">com.houseboat.pages.GoogleSignInTest</td><td><a href="#m8">getEmail</a></td><td rowspan="1">1586719775645</td><td rowspan="1">2993</td></tr><tr class="passedeven"><td rowspan="1">com.houseboat.pages.HomePageTest</td><td><a href="#m9">homePage</a></td><td rowspan="1">1586719751402</td><td rowspan="1">2485</td></tr><tr class="passedodd"><td rowspan="1">com.houseboat.pages.LoginPageTest</td><td><a href="#m10">getStarted</a></td><td rowspan="1">1586719753891</td><td rowspan="1">9574</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.houseboat.pages.AuthSignInTest#googleSignIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.houseboat.pages.GoogleSignInTest#getEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Houseboat Login</h2><h3 id="m0">com.houseboat.pages.LogoutProfileTest#cleanUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-1IA10FT6&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\priyanka\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 21687b642d71e81b7002d6533c0486f3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.houseboat.pages.LogoutProfileTest.cleanUp(LogoutProfileTest.java:30)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.houseboat.pages.AddHouseboatTest#clickAddBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.houseboat.pages.HomePageTest#homePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.houseboat.pages.LoginPageTest#getStarted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.houseboat.pages.LoginHouseboatTest#hbLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.houseboat.pages.LoginPageTest#getStarted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.houseboat.pages.LogoutProfileTest#getStarted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.houseboat.pages.NewHouseboatTest#addNewHouseboat</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Houseboat Auth Login</h2><h3 id="m7">com.houseboat.pages.AuthSignInTest#googleSignIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.houseboat.pages.GoogleSignInTest#getEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.houseboat.pages.HomePageTest#homePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.houseboat.pages.LoginPageTest#getStarted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -39,6 +39,7 @@ public class DriverInitialisation {
 			System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--enable-automation");
 			if (browserName.contains("headless")) {
 				options.addArguments("headless");
 			}

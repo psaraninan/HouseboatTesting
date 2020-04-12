@@ -13,4 +13,6 @@ public class AuthSignInTest extends InitialTest {
 		authSignIn.getGoogleSignIn().click();
 		Thread.sleep(2000);
 	}
+	
+	
 }
