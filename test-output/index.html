@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Houseboat_Testing">
-              <span class="suite-name border-passed">Houseboat Testing</span>
+              <span class="suite-name border-skipped">Houseboat Testing</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">10 methods,  4 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Houseboat_Testing" class="hide-methods skipped suite-Houseboat_Testing"> (hide)</a> <!-- hide-methods skipped suite-Houseboat_Testing -->
+                      <a href="#" panel-name="suite-Houseboat_Testing" class="show-methods skipped suite-Houseboat_Testing"> (show)</a> <!-- show-methods skipped suite-Houseboat_Testing -->
+                    </span>
+                    <div class="method-list-content skipped suite-Houseboat_Testing">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.GoogleSignInTest" hash-for-method="getEmail">getEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.LoginPageTest" hash-for-method="getStarted">getStarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.AuthSignInTest" hash-for-method="googleSignIn">googleSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.HomePageTest" hash-for-method="homePage">homePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Houseboat_Testing -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,11 +141,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.GoogleSignInTest" hash-for-method="getEmail">getEmail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.LoginPageTest" hash-for-method="getStarted">getStarted</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -127,22 +151,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.LoginPageTest" hash-for-method="getStarted">getStarted</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.AuthSignInTest" hash-for-method="googleSignIn">googleSignIn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.LoginHouseboatTest" hash-for-method="hbLogin">hbLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Houseboat_Testing" title="com.houseboat.pages.HomePageTest" hash-for-method="homePage">homePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -162,6 +171,310 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Houseboat_Testing" class="panel Houseboat_Testing">
+          <div class="suite-Houseboat_Testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.houseboat.pages.AuthSignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSignIn">
+                  </a> <!-- googleSignIn -->
+                  <span class="method-name">googleSignIn</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-1IA10FT6&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0026A113+1548563]
+	Ordinal0 [0x001EDDA1+1039777]
+	Ordinal0 [0x0016E32E+516910]
+	Ordinal0 [0x00168012+491538]
+	Ordinal0 [0x001686EB+493291]
+	Ordinal0 [0x00169855+497749]
+	Ordinal0 [0x00165885+481413]
+	Ordinal0 [0x0016F0D0+520400]
+	Ordinal0 [0x0011C030+180272]
+	Ordinal0 [0x0011B59D+177565]
+	Ordinal0 [0x001195FB+169467]
+	Ordinal0 [0x0010160A+71178]
+	Ordinal0 [0x00102690+75408]
+	Ordinal0 [0x00102629+75305]
+	Ordinal0 [0x002071B7+1143223]
+	GetHandleVerifier [0x00302B46+507814]
+	GetHandleVerifier [0x00302864+507076]
+	GetHandleVerifier [0x00309F47+537511]
+	GetHandleVerifier [0x00303402+510050]
+	Ordinal0 [0x001FF29C+1110684]
+	Ordinal0 [0x0020938B+1151883]
+	Ordinal0 [0x002094F3+1152243]
+	Ordinal0 [0x002083F5+1147893]
+	BaseThreadInitThunk [0x774D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x777A7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777A7B44+180]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at resources.DriverInitialisation.initializeDriver(DriverInitialisation.java:47)
+	at com.houseboat.pages.InitialTest.openUrl(InitialTest.java:15)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Houseboat_Testing-class-skipped -->
+          <div class="suite-Houseboat_Testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.houseboat.pages.GoogleSignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getEmail">
+                  </a> <!-- getEmail -->
+                  <span class="method-name">getEmail</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-1IA10FT6&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0026A113+1548563]
+	Ordinal0 [0x001EDDA1+1039777]
+	Ordinal0 [0x0016E32E+516910]
+	Ordinal0 [0x00168012+491538]
+	Ordinal0 [0x001686EB+493291]
+	Ordinal0 [0x00169855+497749]
+	Ordinal0 [0x00165885+481413]
+	Ordinal0 [0x0016F0D0+520400]
+	Ordinal0 [0x0011C030+180272]
+	Ordinal0 [0x0011B59D+177565]
+	Ordinal0 [0x001195FB+169467]
+	Ordinal0 [0x0010160A+71178]
+	Ordinal0 [0x00102690+75408]
+	Ordinal0 [0x00102629+75305]
+	Ordinal0 [0x002071B7+1143223]
+	GetHandleVerifier [0x00302B46+507814]
+	GetHandleVerifier [0x00302864+507076]
+	GetHandleVerifier [0x00309F47+537511]
+	GetHandleVerifier [0x00303402+510050]
+	Ordinal0 [0x001FF29C+1110684]
+	Ordinal0 [0x0020938B+1151883]
+	Ordinal0 [0x002094F3+1152243]
+	Ordinal0 [0x002083F5+1147893]
+	BaseThreadInitThunk [0x774D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x777A7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777A7B44+180]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at resources.DriverInitialisation.initializeDriver(DriverInitialisation.java:47)
+	at com.houseboat.pages.InitialTest.openUrl(InitialTest.java:15)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Houseboat_Testing-class-skipped -->
+          <div class="suite-Houseboat_Testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.houseboat.pages.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePage">
+                  </a> <!-- homePage -->
+                  <span class="method-name">homePage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-1IA10FT6&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0026A113+1548563]
+	Ordinal0 [0x001EDDA1+1039777]
+	Ordinal0 [0x0016E32E+516910]
+	Ordinal0 [0x00168012+491538]
+	Ordinal0 [0x001686EB+493291]
+	Ordinal0 [0x00169855+497749]
+	Ordinal0 [0x00165885+481413]
+	Ordinal0 [0x0016F0D0+520400]
+	Ordinal0 [0x0011C030+180272]
+	Ordinal0 [0x0011B59D+177565]
+	Ordinal0 [0x001195FB+169467]
+	Ordinal0 [0x0010160A+71178]
+	Ordinal0 [0x00102690+75408]
+	Ordinal0 [0x00102629+75305]
+	Ordinal0 [0x002071B7+1143223]
+	GetHandleVerifier [0x00302B46+507814]
+	GetHandleVerifier [0x00302864+507076]
+	GetHandleVerifier [0x00309F47+537511]
+	GetHandleVerifier [0x00303402+510050]
+	Ordinal0 [0x001FF29C+1110684]
+	Ordinal0 [0x0020938B+1151883]
+	Ordinal0 [0x002094F3+1152243]
+	Ordinal0 [0x002083F5+1147893]
+	BaseThreadInitThunk [0x774D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x777A7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777A7B44+180]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at resources.DriverInitialisation.initializeDriver(DriverInitialisation.java:47)
+	at com.houseboat.pages.InitialTest.openUrl(InitialTest.java:15)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Houseboat_Testing-class-skipped -->
+          <div class="suite-Houseboat_Testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.houseboat.pages.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getStarted">
+                  </a> <!-- getStarted -->
+                  <span class="method-name">getStarted</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.163)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-1IA10FT6&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0026A113+1548563]
+	Ordinal0 [0x001EDDA1+1039777]
+	Ordinal0 [0x0016E32E+516910]
+	Ordinal0 [0x00168012+491538]
+	Ordinal0 [0x001686EB+493291]
+	Ordinal0 [0x00169855+497749]
+	Ordinal0 [0x00165885+481413]
+	Ordinal0 [0x0016F0D0+520400]
+	Ordinal0 [0x0011C030+180272]
+	Ordinal0 [0x0011B59D+177565]
+	Ordinal0 [0x001195FB+169467]
+	Ordinal0 [0x0010160A+71178]
+	Ordinal0 [0x00102690+75408]
+	Ordinal0 [0x00102629+75305]
+	Ordinal0 [0x002071B7+1143223]
+	GetHandleVerifier [0x00302B46+507814]
+	GetHandleVerifier [0x00302864+507076]
+	GetHandleVerifier [0x00309F47+537511]
+	GetHandleVerifier [0x00303402+510050]
+	Ordinal0 [0x001FF29C+1110684]
+	Ordinal0 [0x0020938B+1151883]
+	Ordinal0 [0x002094F3+1152243]
+	Ordinal0 [0x002083F5+1147893]
+	BaseThreadInitThunk [0x774D6359+25]
+	RtlGetAppContainerNamedObjectPath [0x777A7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x777A7B44+180]
+	(No symbol) [0x00000000]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at resources.DriverInitialisation.initializeDriver(DriverInitialisation.java:47)
+	at com.houseboat.pages.InitialTest.openUrl(InitialTest.java:15)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Houseboat_Testing-class-skipped -->
           <div class="suite-Houseboat_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -173,21 +486,6 @@
                   <a name="getStarted">
                   </a> <!-- getStarted -->
                   <span class="method-name">getStarted</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Houseboat_Testing-class-passed -->
-          <div class="suite-Houseboat_Testing-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.houseboat.pages.AuthSignInTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="googleSignIn">
-                  </a> <!-- googleSignIn -->
-                  <span class="method-name">googleSignIn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -240,31 +538,9 @@
           <div class="suite-Houseboat_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.houseboat.pages.GoogleSignInTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getEmail">
-                  </a> <!-- getEmail -->
-                  <span class="method-name">getEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Houseboat_Testing-class-passed -->
-          <div class="suite-Houseboat_Testing-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.houseboat.pages.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="homePage">
-                  </a> <!-- homePage -->
-                  <span class="method-name">homePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="homePage">
@@ -280,13 +556,6 @@
               <span class="class-name">com.houseboat.pages.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getStarted">
-                  </a> <!-- getStarted -->
-                  <span class="method-name">getStarted</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="getStarted">
@@ -368,50 +637,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'googleSignIn')
-data.setCell(0, 2, 'com.houseboat.pages.AuthSignInTest')
-data.setCell(0, 3, 12174);
+data.setCell(0, 1, 'getStarted')
+data.setCell(0, 2, 'com.houseboat.pages.LoginPageTest')
+data.setCell(0, 3, 10041);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'getStarted')
-data.setCell(1, 2, 'com.houseboat.pages.LoginPageTest')
-data.setCell(1, 3, 10048);
+data.setCell(1, 2, 'com.houseboat.pages.LogoutProfileTest')
+data.setCell(1, 3, 5888);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getStarted')
-data.setCell(2, 2, 'com.houseboat.pages.LoginPageTest')
-data.setCell(2, 3, 9574);
+data.setCell(2, 1, 'clickAddBtn')
+data.setCell(2, 2, 'com.houseboat.pages.AddHouseboatTest')
+data.setCell(2, 3, 5451);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getStarted')
-data.setCell(3, 2, 'com.houseboat.pages.LogoutProfileTest')
-data.setCell(3, 3, 6063);
+data.setCell(3, 1, 'addNewHouseboat')
+data.setCell(3, 2, 'com.houseboat.pages.NewHouseboatTest')
+data.setCell(3, 3, 3658);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickAddBtn')
-data.setCell(4, 2, 'com.houseboat.pages.AddHouseboatTest')
-data.setCell(4, 3, 5740);
+data.setCell(4, 1, 'hbLogin')
+data.setCell(4, 2, 'com.houseboat.pages.LoginHouseboatTest')
+data.setCell(4, 3, 3631);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'hbLogin')
-data.setCell(5, 2, 'com.houseboat.pages.LoginHouseboatTest')
-data.setCell(5, 3, 3654);
+data.setCell(5, 1, 'homePage')
+data.setCell(5, 2, 'com.houseboat.pages.HomePageTest')
+data.setCell(5, 3, 3329);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addNewHouseboat')
-data.setCell(6, 2, 'com.houseboat.pages.NewHouseboatTest')
-data.setCell(6, 3, 3299);
+data.setCell(6, 1, 'getEmail')
+data.setCell(6, 2, 'com.houseboat.pages.GoogleSignInTest')
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'getEmail')
-data.setCell(7, 2, 'com.houseboat.pages.GoogleSignInTest')
-data.setCell(7, 3, 2993);
+data.setCell(7, 1, 'getStarted')
+data.setCell(7, 2, 'com.houseboat.pages.LoginPageTest')
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'homePage')
 data.setCell(8, 2, 'com.houseboat.pages.HomePageTest')
-data.setCell(8, 3, 2540);
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'homePage')
-data.setCell(9, 2, 'com.houseboat.pages.HomePageTest')
-data.setCell(9, 3, 2485);
+data.setCell(9, 1, 'googleSignIn')
+data.setCell(9, 2, 'com.houseboat.pages.AuthSignInTest')
+data.setCell(9, 3, 0);
 window.suiteTableData['Houseboat_Testing']= { tableData: data, tableDiv: 'times-div-Houseboat_Testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-Houseboat_Testing">
               </div> <!-- times-div-Houseboat_Testing -->
             </div> <!-- times-div -->
@@ -507,83 +776,85 @@ return data;
               <div class="chronological-class-name">com.houseboat.pages.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homePage</span>
-                <span class="method-start">16222 ms</span>
+                <span class="method-start">21412 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getStarted</span>
-                <span class="method-start">18798 ms</span>
+                <span class="method-start">24765 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.LoginHouseboatTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">hbLogin</span>
-                <span class="method-start">28852 ms</span>
+                <span class="method-start">34811 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.AddHouseboatTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">clickAddBtn</span>
-                <span class="method-start">32514 ms</span>
+                <span class="method-start">38457 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.NewHouseboatTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addNewHouseboat</span>
-                <span class="method-start">38263 ms</span>
+                <span class="method-start">43913 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.LogoutProfileTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getStarted</span>
-                <span class="method-start">41566 ms</span>
+                <span class="method-start">47575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">47633 ms</span>
+                <span class="method-start">53481 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.InitialTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">openUrl</span>
-                <span class="method-start">51764 ms</span>
+                <span class="method-start">57687 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homePage</span>
-                <span class="method-start">66216 ms</span>
+                <span class="method-start">73549 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getStarted</span>
-                <span class="method-start">68705 ms</span>
+                <span class="method-start">73557 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.AuthSignInTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">googleSignIn</span>
-                <span class="method-start">78281 ms</span>
+                <span class="method-start">73564 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.houseboat.pages.GoogleSignInTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getEmail</span>
-                <span class="method-start">90459 ms</span>
+                <span class="method-start">73577 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
