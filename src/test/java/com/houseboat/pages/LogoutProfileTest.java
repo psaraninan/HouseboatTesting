@@ -17,7 +17,7 @@ public class LogoutProfileTest extends InitialTest {
 	LogoutProfile logout;
 
 	@Test
-	public void getStarted() throws IOException, InterruptedException {
+	public void logout() throws IOException, InterruptedException {
 		// LoginPage login = new LoginPage(driver);
 
 		logout = new LogoutProfile(driver);

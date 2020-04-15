@@ -14,6 +14,7 @@ public class InitialTest extends DriverInitialisation {
 	public void openUrl() throws IOException, InterruptedException {
 		driver = initializeDriver();
 		driver.get("https://houseboatjunction.com/");
+		driver.manage().window().maximize();
 		Thread.sleep(4000);
 	}
 }

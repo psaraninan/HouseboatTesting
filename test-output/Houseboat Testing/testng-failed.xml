@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Houseboat Testing]">
-  <test thread-count="5" name="Houseboat Auth Login(failed)">
+  <test thread-count="5" name="Houseboat Login(failed)">
     <classes>
-      <class name="com.houseboat.pages.AuthSignInTest">
+      <class name="com.houseboat.pages.NewHouseboatTest">
         <methods>
-          <include name="openUrl"/>
-          <include name="googleSignIn"/>
-        </methods>
-      </class> <!-- com.houseboat.pages.AuthSignInTest -->
-      <class name="com.houseboat.pages.GoogleSignInTest">
-        <methods>
-          <include name="getEmail"/>
+          <include name="addNewHouseboat"/>
           <include name="openUrl"/>
         </methods>
-      </class> <!-- com.houseboat.pages.GoogleSignInTest -->
-      <class name="com.houseboat.pages.HomePageTest">
+      </class> <!-- com.houseboat.pages.NewHouseboatTest -->
+      <class name="com.houseboat.pages.AddHouseboatTest">
         <methods>
-          <include name="homePage"/>
+          <include name="clickAddBtn"/>
           <include name="openUrl"/>
         </methods>
-      </class> <!-- com.houseboat.pages.HomePageTest -->
-      <class name="com.houseboat.pages.LoginPageTest">
-        <methods>
-          <include name="getStarted"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- com.houseboat.pages.LoginPageTest -->
+      </class> <!-- com.houseboat.pages.AddHouseboatTest -->
     </classes>
-  </test> <!-- Houseboat Auth Login(failed) -->
+  </test> <!-- Houseboat Login(failed) -->
 </suite> <!-- Failed suite [Houseboat Testing] -->

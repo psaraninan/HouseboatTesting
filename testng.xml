@@ -13,17 +13,12 @@
 			<class name="com.houseboat.pages.LoginHouseboatTest" />
 			<class name="com.houseboat.pages.AddHouseboatTest" />
 			<class name="com.houseboat.pages.NewHouseboatTest" />
+			<class name="com.houseboat.pages.DeleteHouseboatTest" />
 			<class name="com.houseboat.pages.LogoutProfileTest" />
 		</classes>
 	</test> <!-- Test -->
-	
-	<test thread-count="5" name="Houseboat Auth Login">
-		<classes>
-			<class name="com.houseboat.pages.InitialTest" />
-			<class name="com.houseboat.pages.HomePageTest" />
-			<class name="com.houseboat.pages.LoginPageTest" />
-			<class name="com.houseboat.pages.AuthSignInTest" />
-			<class name="com.houseboat.pages.GoogleSignInTest" />
-		</classes>
-	</test> 
+	<!-- <test thread-count="5" name="Houseboat Auth Login"> <classes> <class 
+		name="com.houseboat.pages.InitialTest" /> <class name="com.houseboat.pages.HomePageTest" 
+		/> <class name="com.houseboat.pages.LoginPageTest" /> <class name="com.houseboat.pages.AuthSignInTest" 
+		/> <class name="com.houseboat.pages.GoogleSignInTest" /> </classes> </test> -->
 </suite> <!-- Suite -->

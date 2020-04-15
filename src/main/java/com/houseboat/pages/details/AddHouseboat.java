@@ -1,6 +1,7 @@
 package com.houseboat.pages.details;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,6 +20,13 @@ public class AddHouseboat {
 
 	public WebElement getAddBtn() throws IOException {
 		log.info("click add houseboat...");
+		List<WebElement> addList = driver.findElements(By.cssSelector(".title.is-4"));
+		for (int i=0;i<addList.size();i++) {
+			if (addList.get(i).getText().contains("Add new houseboat")){
+				return addList.get(i);
+			}
+			break;
+		}
 		return driver.findElement(addButton);
 	}
 }
