@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 
 public class GoogleSignIn {
 	WebDriver driver;
-	public static Logger log = LogManager.getLogger(AuthPage.class.getName());
+	public static Logger log = LogManager.getLogger(SignUpPage.class.getName());
 	By email = By.id("identifierId");
 	// By next = By.linkText("Next");\
 	By next = By.id("identifierNext");

@@ -22,7 +22,6 @@ public class DeleteHouseboatTest extends InitialTest {
 		DeleteHouseboat deleteHb = new DeleteHouseboat(driver);
 		fileInput = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\resources\\data.properties");
 		prop.load(fileInput);
-
 		String deleteHouseboat = prop.getProperty("boatToDelete");
 		System.out.println("Boat to delete:" + deleteHouseboat);
 		List<WebElement> boatList = deleteHb.getHouseboatList();
