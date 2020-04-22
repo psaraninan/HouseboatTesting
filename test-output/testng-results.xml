@@ -1,59 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="7" total="14" passed="7">
+<testng-results skipped="0" failed="0" ignored="11" total="22" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Houseboat Testing" duration-ms="60336" started-at="2020-04-16T01:57:56 IST" finished-at="2020-04-16T01:58:57 IST">
+  <suite name="Houseboat Testing" duration-ms="95981" started-at="2020-04-23T00:23:37 IST" finished-at="2020-04-23T00:25:13 IST">
     <groups>
     </groups>
-    <test name="Houseboat Login" duration-ms="60336" started-at="2020-04-16T01:57:56 IST" finished-at="2020-04-16T01:58:57 IST">
-      <class name="com.houseboat.pages.NewHouseboatTest">
-        <test-method status="PASS" signature="addNewHouseboat()[pri:0, instance:com.houseboat.pages.NewHouseboatTest@15ca7889]" name="addNewHouseboat" duration-ms="3308" started-at="2020-04-16T01:58:39 IST" finished-at="2020-04-16T01:58:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewHouseboat -->
-      </class> <!-- com.houseboat.pages.NewHouseboatTest -->
+    <test name="Houseboat Sign up" duration-ms="46428" started-at="2020-04-23T00:23:37 IST" finished-at="2020-04-23T00:24:24 IST">
       <class name="com.houseboat.pages.LoginPageTest">
-        <test-method status="PASS" signature="getStarted()[pri:0, instance:com.houseboat.pages.LoginPageTest@7b02881e]" name="getStarted" duration-ms="9383" started-at="2020-04-16T01:58:16 IST" finished-at="2020-04-16T01:58:25 IST">
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:com.houseboat.pages.LoginPageTest@117e949d]" name="getStarted" duration-ms="9333" started-at="2020-04-23T00:23:58 IST" finished-at="2020-04-23T00:24:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStarted -->
       </class> <!-- com.houseboat.pages.LoginPageTest -->
       <class name="com.houseboat.pages.SignUpPageTest">
-        <test-method status="PASS" signature="houseboatSignup()[pri:0, instance:com.houseboat.pages.SignUpPageTest@1ebd319f]" name="houseboatSignup" duration-ms="7091" started-at="2020-04-16T01:58:25 IST" finished-at="2020-04-16T01:58:32 IST">
+        <test-method status="PASS" signature="houseboatSignup()[pri:0, instance:com.houseboat.pages.SignUpPageTest@6db9f5a4]" name="houseboatSignup" duration-ms="6822" started-at="2020-04-23T00:24:07 IST" finished-at="2020-04-23T00:24:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- houseboatSignup -->
       </class> <!-- com.houseboat.pages.SignUpPageTest -->
-      <class name="com.houseboat.pages.DeleteHouseboatTest">
-        <test-method status="PASS" signature="deleteHouseboat()[pri:0, instance:com.houseboat.pages.DeleteHouseboatTest@7a675056]" name="deleteHouseboat" duration-ms="8441" started-at="2020-04-16T01:58:42 IST" finished-at="2020-04-16T01:58:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteHouseboat -->
-      </class> <!-- com.houseboat.pages.DeleteHouseboatTest -->
       <class name="com.houseboat.pages.HomePageTest">
-        <test-method status="PASS" signature="homePage()[pri:0, instance:com.houseboat.pages.HomePageTest@5f8edcc5]" name="homePage" duration-ms="2414" started-at="2020-04-16T01:58:14 IST" finished-at="2020-04-16T01:58:16 IST">
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.houseboat.pages.HomePageTest@10d68fcd]" name="homePage" duration-ms="2512" started-at="2020-04-23T00:23:56 IST" finished-at="2020-04-23T00:23:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
       </class> <!-- com.houseboat.pages.HomePageTest -->
       <class name="com.houseboat.pages.LogoutProfileTest">
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.houseboat.pages.LogoutProfileTest@d21a74c]" name="logout" duration-ms="5850" started-at="2020-04-16T01:58:51 IST" finished-at="2020-04-16T01:58:56 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.houseboat.pages.LogoutProfileTest@5f8edcc5]" name="logout" duration-ms="9109" started-at="2020-04-23T00:24:14 IST" finished-at="2020-04-23T00:24:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.houseboat.pages.LogoutProfileTest@d21a74c]" name="cleanUp" is-config="true" duration-ms="229" started-at="2020-04-16T01:58:56 IST" finished-at="2020-04-16T01:58:57 IST">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.houseboat.pages.LogoutProfileTest@5f8edcc5]" name="cleanUp" is-config="true" duration-ms="172" started-at="2020-04-23T00:24:23 IST" finished-at="2020-04-23T00:24:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.houseboat.pages.LogoutProfileTest -->
+      <class name="com.houseboat.pages.InitialTest">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.houseboat.pages.InitialTest@424e1977]" name="openUrl" is-config="true" duration-ms="18362" started-at="2020-04-23T00:23:37 IST" finished-at="2020-04-23T00:23:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+      </class> <!-- com.houseboat.pages.InitialTest -->
+    </test> <!-- Houseboat Sign up -->
+    <test name="Houseboat Login" duration-ms="49515" started-at="2020-04-23T00:24:24 IST" finished-at="2020-04-23T00:25:13 IST">
+      <class name="com.houseboat.pages.NewHouseboatTest">
+        <test-method status="PASS" signature="addNewHouseboat()[pri:0, instance:com.houseboat.pages.NewHouseboatTest@f2ff811]" name="addNewHouseboat" duration-ms="3216" started-at="2020-04-23T00:24:55 IST" finished-at="2020-04-23T00:24:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewHouseboat -->
+      </class> <!-- com.houseboat.pages.NewHouseboatTest -->
+      <class name="com.houseboat.pages.LoginPageTest">
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:com.houseboat.pages.LoginPageTest@2f54a33d]" name="getStarted" duration-ms="8259" started-at="2020-04-23T00:24:37 IST" finished-at="2020-04-23T00:24:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+      </class> <!-- com.houseboat.pages.LoginPageTest -->
+      <class name="com.houseboat.pages.DeleteHouseboatTest">
+        <test-method status="PASS" signature="deleteHouseboat()[pri:0, instance:com.houseboat.pages.DeleteHouseboatTest@568ff82]" name="deleteHouseboat" duration-ms="8371" started-at="2020-04-23T00:24:59 IST" finished-at="2020-04-23T00:25:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteHouseboat -->
+      </class> <!-- com.houseboat.pages.DeleteHouseboatTest -->
+      <class name="com.houseboat.pages.LoginHouseboatTest">
+        <test-method status="PASS" signature="hbLogin()[pri:0, instance:com.houseboat.pages.LoginHouseboatTest@1018bde2]" name="hbLogin" duration-ms="3684" started-at="2020-04-23T00:24:46 IST" finished-at="2020-04-23T00:24:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hbLogin -->
+      </class> <!-- com.houseboat.pages.LoginHouseboatTest -->
+      <class name="com.houseboat.pages.HomePageTest">
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.houseboat.pages.HomePageTest@60015ef5]" name="homePage" duration-ms="2402" started-at="2020-04-23T00:24:35 IST" finished-at="2020-04-23T00:24:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+      </class> <!-- com.houseboat.pages.HomePageTest -->
+      <class name="com.houseboat.pages.LogoutProfileTest">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.houseboat.pages.LogoutProfileTest@50caa560]" name="logout" duration-ms="5878" started-at="2020-04-23T00:25:07 IST" finished-at="2020-04-23T00:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.houseboat.pages.LogoutProfileTest@50caa560]" name="cleanUp" is-config="true" duration-ms="166" started-at="2020-04-23T00:25:13 IST" finished-at="2020-04-23T00:25:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- com.houseboat.pages.LogoutProfileTest -->
       <class name="com.houseboat.pages.AddHouseboatTest">
-        <test-method status="PASS" signature="clickAddBtn()[pri:0, instance:com.houseboat.pages.AddHouseboatTest@3c0be339]" name="clickAddBtn" duration-ms="6390" started-at="2020-04-16T01:58:32 IST" finished-at="2020-04-16T01:58:39 IST">
+        <test-method status="PASS" signature="clickAddBtn()[pri:0, instance:com.houseboat.pages.AddHouseboatTest@65b3f4a4]" name="clickAddBtn" duration-ms="6022" started-at="2020-04-23T00:24:49 IST" finished-at="2020-04-23T00:24:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAddBtn -->
       </class> <!-- com.houseboat.pages.AddHouseboatTest -->
       <class name="com.houseboat.pages.InitialTest">
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.houseboat.pages.InitialTest@6db9f5a4]" name="openUrl" is-config="true" duration-ms="17108" started-at="2020-04-16T01:57:56 IST" finished-at="2020-04-16T01:58:13 IST">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.houseboat.pages.InitialTest@55740540]" name="openUrl" is-config="true" duration-ms="11492" started-at="2020-04-23T00:24:24 IST" finished-at="2020-04-23T00:24:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->

@@ -3,31 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Houseboat Testing]">
   <test thread-count="5" name="Houseboat Login(failed)">
     <classes>
-      <class name="com.houseboat.pages.DeleteHouseboatTest">
-        <methods>
-          <include name="deleteHouseboat"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- com.houseboat.pages.DeleteHouseboatTest -->
-      <class name="com.houseboat.pages.LogoutProfileTest">
-        <methods>
-          <include name="cleanUp"/>
-          <include name="logout"/>
-          <include name="openUrl"/>
-        </methods>
-      </class> <!-- com.houseboat.pages.LogoutProfileTest -->
       <class name="com.houseboat.pages.NewHouseboatTest">
         <methods>
           <include name="addNewHouseboat"/>
           <include name="openUrl"/>
         </methods>
       </class> <!-- com.houseboat.pages.NewHouseboatTest -->
-      <class name="com.houseboat.pages.AddHouseboatTest">
+      <class name="com.houseboat.pages.LoginHouseboatTest">
         <methods>
-          <include name="clickAddBtn"/>
+          <include name="hbLogin"/>
           <include name="openUrl"/>
         </methods>
-      </class> <!-- com.houseboat.pages.AddHouseboatTest -->
+      </class> <!-- com.houseboat.pages.LoginHouseboatTest -->
     </classes>
   </test> <!-- Houseboat Login(failed) -->
 </suite> <!-- Failed suite [Houseboat Testing] -->

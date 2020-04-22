@@ -5,13 +5,21 @@
 		<!-- <listener class-name="academy.Listeners"></listener> -->
 
 	</listeners>
-	<test thread-count="5" name="Houseboat Login">
+	<test thread-count="5" name="Houseboat Sign up">
 		<classes>
 			<class name="com.houseboat.pages.InitialTest" />
 			<class name="com.houseboat.pages.HomePageTest" />
 			<class name="com.houseboat.pages.LoginPageTest" />
 			<class name="com.houseboat.pages.SignUpPageTest" />
-		<!-- 	<class name="com.houseboat.pages.LoginHouseboatTest" />-->
+			<class name="com.houseboat.pages.LogoutProfileTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Houseboat Login">
+		<classes>
+			<class name="com.houseboat.pages.InitialTest" />
+			<class name="com.houseboat.pages.HomePageTest" />
+			<class name="com.houseboat.pages.LoginPageTest" />
+			<class name="com.houseboat.pages.LoginHouseboatTest" />
 			<class name="com.houseboat.pages.AddHouseboatTest" />
 			<class name="com.houseboat.pages.NewHouseboatTest" />
 			<class name="com.houseboat.pages.DeleteHouseboatTest" />
